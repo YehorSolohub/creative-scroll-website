@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Document</title>
+
+    <script src="libs/gsap/gsap.min.js" defer></script>
+    <script src="libs/gsap/ScrollTrigger.min.js" defer></script>
+    <script src="libs/gsap/ScrollSmoother.min.js" defer></script>
+
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="js/app.js" defer></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="content">
+        <header class="hero-section">
+          <img data-speed=".6" class="hero" src="img/hero.png" alt="Alt" />
+          <div class="container">
+            <div data-speed=".75" class="main-header">
+              <h1 class="main-title">ImaginePoint</h1>
+            </div>
+          </div>
+        </header>
+
+        <div class="portfolio">
+          <div class="container">
+            <main class="gallery">
+              <div data-speed=".9" class="gallery__left">
+                <img
+                  class="gallery__item"
+                  src="img/work/Живопись.png"
+                  alt="Alt"
+                />
+                <img
+                  class="gallery__item"
+                  src="img/work/Графика.png"
+                  alt="Alt"
+                />
+
+                <div class="text-block gallery__item">
+                  <h2 class="text-block__h">
+                    Мир красок противостоит миру смыслов.
+                  </h2>
+                  <p class="text-block__p">Жан Бодрийар</p>
+                </div>
+
+                <img
+                  class="gallery__item"
+                  src="img/work/Скульптура.png"
+                  alt="Alt"
+                />
+              </div>
+
+              <div data-speed="1.1" class="gallery__right">
+                <div class="text-block gallery__item">
+                  <h2 class="text-block__h">
+                    Какое чудо — восхищаться в живописи тем, чем в реальности не
+                    восхищаешься!
+                  </h2>
+                  <p class="text-block__p">Фердинанд Виктор Эжен Делакруа</p>
+                </div>
+
+                <img
+                  class="gallery__item"
+                  src="img/work/Акварельная живопись.png"
+                  alt="Alt"
+                />
+                <img
+                  class="gallery__item"
+                  src="img/work/Фотография.jpg"
+                  alt="Alt"
+                />
+                <img
+                  class="gallery__item"
+                  src="img/work/Керамика и объекты.png"
+                  alt="Alt"
+                />
+              </div>
+            </main>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
